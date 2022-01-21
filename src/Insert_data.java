@@ -9,7 +9,7 @@ public class Insert_data
     public static void main(String[] args) throws ClassNotFoundException, SQLException
     {
         Scanner sc = new Scanner(System.in);
-        Class.forName("com.mysql.cj.jdbc.Driver");
+//        Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/database","root","");
         PreparedStatement ps = con.prepareStatement("INSERT INTO emp VALUES (?,?,?,? );");
         System.out.print("Enter the name of the employee: ");
@@ -25,7 +25,7 @@ public class Insert_data
         ps.setInt(3,age);
         ps.setFloat(4,sal);
         ps.executeUpdate();
-        ps.close();
+//        ps.close();
         con.close();
     }
 }
