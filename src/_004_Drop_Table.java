@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public interface _004_Drop_Table
+public class _004_Drop_Table
 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException
     {
