@@ -4,7 +4,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class Insert_data
+public class _003_Insert_data
 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException
     {
