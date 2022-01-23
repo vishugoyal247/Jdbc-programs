@@ -4,20 +4,17 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class _026_InsertDataUsingPreparedStatement
+public class _027_DeleteRecordPreparedStatement
 {
     public static void main(String[] args) throws SQLException
     {
         Scanner sc = new Scanner(System.in);
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/database","root","");
-        PreparedStatement ps = con.prepareStatement("INSERT  INTO emp1 VALUES (?,?,?,?)");
+        PreparedStatement ps = con.prepareStatement("DELETE  from  emp1 where name = ?");
         while (true)
         {
-            System.out.print("Enter the records of the table : ");
+            System.out.print("Enter the name of the employee you want to delete :  ");
             ps.setString(1, sc.next());
-            ps.setString(2, sc.next());
-            ps.setInt(3, sc.nextInt());
-            ps.setFloat(4, sc.nextFloat());
             ps.executeUpdate();
             System.out.print("Are you want to insert a new data :(yes/no) ");
             String op = sc.next();
@@ -27,7 +24,7 @@ public class _026_InsertDataUsingPreparedStatement
             }
         }
 
-        System.out.println("ALL the records are successfully added to the database ");
+        System.out.println("ALL the records are successfully deleted in the database ");
         con.close();
     }
 }
