@@ -11,7 +11,7 @@ public class _003_Insert_data
         Scanner sc = new Scanner(System.in);
 //        Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/database","root","");
-        PreparedStatement ps = con.prepareStatement("INSERT INTO emp VALUES (?,?,?,? );");
+        PreparedStatement ps = con.prepareStatement("INSERT INTO emp1 VALUES (?,?,?,? );");
         System.out.print("Enter the name of the employee: ");
         String name = sc.next();
         System.out.print("Enter the gender male/female: ");
