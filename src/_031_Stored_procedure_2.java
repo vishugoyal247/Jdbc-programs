@@ -1,6 +1,16 @@
 import java.sql.*;
 import java.util.Scanner;
 
+
+/*
+        Stored Procedure
+        create or replace procedure emp1(enane IN varchar(10), Age OUT int ) as
+        BEGIN
+              SELECT age into Age FROM employee where name = ename;
+        END;
+        /
+*/
+
 public class _031_Stored_procedure_2
 {
     public static void main(String[] args) throws SQLException {
