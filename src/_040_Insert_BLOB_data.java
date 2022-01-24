@@ -17,6 +17,12 @@ import java.util.Scanner;
             ps.setString(1,sc.next());
             ps.setBinaryStream(2,fis);
             Step 4 : ps.executeupdate();
+
+
+            object should be
+                               image
+                               video
+                               audio
  */
 
 
@@ -34,17 +40,11 @@ public class _040_Insert_BLOB_data
         File f = new File("C:/Users/ASUS/Desktop/Jdbc-programs/images/vishud.png");
         FileInputStream fis = new FileInputStream(f);
 
-        PreparedStatement ps = con.prepareStatement("INSERT  INTO data(?,?)");
+        PreparedStatement ps = con.prepareStatement("INSERT INTO data values (?,?)");
         ps.setString(1,name);
         ps.setBinaryStream(2,fis);
 
-
-
-
-
-
-
-
+        ps.executeUpdate();
         con.close();
     }
 }
