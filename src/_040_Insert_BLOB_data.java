@@ -23,6 +23,10 @@ import java.util.Scanner;
                                image
                                video
                                audio
+
+
+           Set max packet sql:
+           SET GLOBAL max_allowed_packet=268435456
  */
 
 
@@ -37,7 +41,7 @@ public class _040_Insert_BLOB_data
         System.out.print("Enter the name of the employee: ");
         String name = sc.next();
 
-        File f = new File("C:/Users/ASUS/Desktop/Jdbc-programs/images/vishud.png");
+        File f = new File("C:/Users/ASUS/Desktop/DurgaSir.mp4");
         FileInputStream fis = new FileInputStream(f);
 
         PreparedStatement ps = con.prepareStatement("INSERT INTO data values (?,?)");
