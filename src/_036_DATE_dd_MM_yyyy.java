@@ -6,7 +6,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
-public class _036_DATE_data_store
+public class _036_DATE_dd_MM_yyyy
 {
     public static void main(String[] args) throws SQLException, ParseException {
         Scanner sc = new Scanner(System.in);
