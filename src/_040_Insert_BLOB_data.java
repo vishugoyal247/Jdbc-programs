@@ -49,6 +49,9 @@ public class _040_Insert_BLOB_data
         ps.setBinaryStream(2,fis);
 
         ps.executeUpdate();
+
+
+        System.out.println("Insert image from : "+f.getAbsolutePath());
         con.close();
     }
 }
