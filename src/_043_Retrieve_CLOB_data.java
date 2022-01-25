@@ -17,10 +17,10 @@ public class _043_Retrieve_CLOB_data
             System.out.println(name);
             Reader r=rs.getCharacterStream(2);
             /*
-            char[] buf=new char[1024];
-            while(r.read(buf)>0)
+            char[] buffer=new char[1024];   // we can use this buffer array because resume is too big so the character array is too large
+            while(r.read(buffer)>0)
             {
-                fw.write(buf);
+                fw.write(buffer);
             }
              */
             int i=r.read();
