@@ -6,8 +6,8 @@ import java.sql.*;
 public class _043_Retrieve_CLOB_data
 {
     public static void main(String[] args) throws SQLException, IOException, SQLException {
-        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/people","root","");
-        PreparedStatement ps=con.prepareStatement("select * from cities");
+        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/emp","root","");
+        PreparedStatement ps=con.prepareStatement("select * from ds");
         ResultSet rs=ps.executeQuery();
         int n=1;
         while(rs.next())
