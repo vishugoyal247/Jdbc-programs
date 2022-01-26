@@ -11,6 +11,13 @@ import java.sql.Statement;
 import java.util.Properties;
 import java.util.Scanner;
 
+
+/*
+    - con.setAutoCommit(false)   ----> changes won't be committed in database automatically after running query
+    - con.commit()               ----> after completion of all operations explicitly we can commit
+    - con.rollback()             ----> To rollback operations if any sql query fails
+     */
+
 public class _048_TransactionMethod
 {
     public static void main(String[] args) throws IOException, SQLException {
