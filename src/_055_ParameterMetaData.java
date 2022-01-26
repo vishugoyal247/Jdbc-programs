@@ -7,8 +7,8 @@ public class _055_ParameterMetaData
      */
     public static void main(String[] args) throws SQLException
     {
-        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcpractical?user=root&password=");
-        PreparedStatement ps=con.prepareStatement("insert into employee values(?,?,?,?)");
+        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/database?user=root&password=");
+        PreparedStatement ps=con.prepareStatement("insert into emp1 values(?,?,?,?)");
         ParameterMetaData pmd=ps.getParameterMetaData();
         int count=pmd.getParameterCount();
         for (int i = 1; i <= count ; i++)
