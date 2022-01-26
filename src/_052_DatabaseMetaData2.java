@@ -8,7 +8,7 @@ public class _052_DatabaseMetaData2
     public static void main(String[] args) throws SQLException
     {
         int count=0;
-        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcpractical?user=root&password=");
+        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/database?user=root&password=");
         DatabaseMetaData dbmd=con.getMetaData();
         String catalog=null;
         String schemaPattern=null;
