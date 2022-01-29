@@ -10,5 +10,5 @@
      > - ### [Insert Data through Java Format](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_006_Insert_Data_Java_Format.java)
   
 - ## Topic 3 Drop Table
-     > - ### [Drop a table](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_004_Drop_Table.java
+     > - ### [Drop a table](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_004_Drop_Table.java)
     
