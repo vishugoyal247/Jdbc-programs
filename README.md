@@ -1,15 +1,14 @@
 ## Hi {Learners}! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">, I am JDBC repolistory 👨‍🎓
 
-- ## Chapter 1 [Introduction](https://github.com/Etishajain17/100DaysChallenge/tree/master/src/Day1)
-     > - ### Intro.
-     > - ### Identifiers
-     > - ### Reserved Keywords 
-- ## DAY 2 [Primitive Dataypes](https://github.com/Etishajain17/100DaysChallenge/tree/master/src/Day2)
-     > - ### Integral Datatypes
-     > - ### Floating Datatypes
-     > - ### Non-Numeric Datatypes
-- ## DAY 3 [Literals](https://github.com/Etishajain17/100DaysChallenge/tree/master/src/Day3)
-     > - ### Integer and Floating Literals
-     > - ### Boolean and char Literals
-     > - ### String and Binary Literals
-- ## DAY 4 [Array Part 1](https://github.com/Etishaja
+- ## Topic 1 Create Table
+     > - ### [Create Table through Statement](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_001_Create_Table_statement.java)
+     > - ### [Create Table through Prepared Statement](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_002_Create_Table.java)
+    
+- ## Topic 2 Insert Values
+     > - ### [Insert Data](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_003_Insert_data.java)
+     > - ### [Insert Data through Java String](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_005_Dynamic_Input_Data.java)
+     > - ### [Insert Data through Java Format](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_006_Insert_Data_Java_Format.java)
+  
+- ## Topic 3 Drop Table
+     > - ### [Drop a table](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_004_Drop_Table.java
+    
