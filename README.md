@@ -11,4 +11,8 @@
   
 - ## Topic 3 Drop Table
      > - ### [Drop a table](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_004_Drop_Table.java)
+
+- ## Topic 4 Update Record
+     > - ### [Update single row](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_007_Update_single_row.java)
+     > - ### [Update Multiple row](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_008_Update_multiple_Records.java)
     
