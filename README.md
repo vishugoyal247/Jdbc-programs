@@ -19,5 +19,18 @@
 - ## Topic 5 Update Record
      > - ### [Delete single row](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_009_Delete_Single_row.java)
      > - ### [Delete Multiple row](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_010_Delete_multiple_records.java)
+
+- ## Topic 6 Set Auto Commit
+     > - ### [Set auto commit](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_012_Set_auto_commit.java)
+
+- ## Topic 7 Select
+     > - ### [Select all rows](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_011_Select_all_rows.java)
+     > - ### [Select row in sorted](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_013_Select_row_sorted_order.java)
+     > - ### [Select row in decending](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_014_Select_row_desc.java)
+     > - ### [Select record through initial character](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_015_Select_Record_InitialCharacter.java)
+     > - ### [Select record through second character](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_016_Select_Record_Second_character_based.java)
+     > - ### [Select particular column](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_017_Select_Particular_Column.java)
+
+
     
     
