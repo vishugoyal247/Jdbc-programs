@@ -15,4 +15,9 @@
 - ## Topic 4 Update Record
      > - ### [Update single row](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_007_Update_single_row.java)
      > - ### [Update Multiple row](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_008_Update_multiple_Records.java)
+
+- ## Topic 5 Update Record
+     > - ### [Delete single row](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_009_Delete_Single_row.java)
+     > - ### [Delete Multiple row](https://github.com/goalsachiever/Jdbc-programs/blob/master/src/_010_Delete_multiple_records.java)
+    
     
